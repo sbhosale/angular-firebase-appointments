@@ -1,0 +1,33 @@
+{
+  "name": "appointments",
+  "version": "0.1.0",
+  "description": "Yet another amazing AngularJS app",
+  "keywords": [
+    "angular"
+  ],
+  "homepage": "https://github.com/sbhosale/appointments",
+  "bugs": "https://github.com/sbhosale/appointments/issues",
+  "author": {
+    "name": "Sushant Bhosale",
+    "email": "",
+    "url": "https://github.com/sbhosale"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbhosale/appointments.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "bootstrap": "3.3.4",
+    "angular-animate": "^1.4.0-rc.0",
+    "angular-route": "^1.4.0-rc.0",
+    "angular": "^1.4.0-rc.0"
+  },
+  "resolutions": {
+    "angular": "1.3.15"
+  }
+}
