@@ -3,12 +3,12 @@
   <div class="container-fluid">
   <p class="navbar-text pull-right" ng-show="loggedIn">Hello {{ displayName }}</p>
 
-  <button id="fb-logout" ng-hide="authData" class="btn btn-primary navbar-btn pull-right" ng-click="logout()">Logout</button> 
+  <button id="fb-logout" ng-show="loggedIn" class="btn btn-primary navbar-btn pull-right" ng-click="logout()">Logout</button> 
   </div>
 </nav>
   
   <div class="page-header text-center">       
-    <h1>Schedule City {{ data.uid }}</h1>        
+    <h1>Select Time</h1>        
   </div>
 
   <!-- were doing one day with 1 time slot for simplicity -->
